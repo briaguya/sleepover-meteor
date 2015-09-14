@@ -85,20 +85,20 @@
 		],
 		"queries": [
 			{
-				"name": "customers",
-				"collection": "customers"
+				"name": "podestrians",
+				"collection": "podestrians"
 			},
 			{
-				"name": "customers_empty",
-				"collection": "customers",
+				"name": "podestrians_empty",
+				"collection": "podestrians",
 				"filter": {
 					"_id": null
 				},
 				"find_one": true
 			},
 			{
-				"name": "customer",
-				"collection": "customers",
+				"name": "podestrian",
+				"collection": "podestrians",
 				"filter": {
 					"_id": ":customerId"
 				},
@@ -317,23 +317,20 @@
 					"type": "page"
 				},
 				{
-					"name": "customers",
+					"name": "podestrians",
 					"components": [
 						{
 							"name": "view",
 							"type": "data_view",
-							"title": "Customers",
+							"title": "Podestrians",
 							"text_if_empty": "No customers :(",
 							"query_name": "customers",
-							"insert_route": "customers.insert",
-							"edit_route": "customers.edit",
 							"edit_route_params": [
 								{
 									"name": "customerId",
 									"value": "this._id"
 								}
 							],
-							"details_route": "customers.details",
 							"details_route_params": [
 								{
 									"name": "customerId",
@@ -350,10 +347,8 @@
 									"name": "insert_form",
 									"type": "form",
 									"mode": "insert",
-									"title": "New customer",
-									"query_name": "customers_empty",
-									"submit_route": "customers",
-									"cancel_route": "customers"
+									"title": "New Podestrian",
+									"query_name": "customers_empty"
 								}
 							],
 							"type": "page"

@@ -388,7 +388,8 @@
 							"query_name": "podestrian"
 						}
 					],
-					"type": "page"
+					"type": "page",
+					"query_name": "podestrians"
 				}
 			],
 			"type": "zone"

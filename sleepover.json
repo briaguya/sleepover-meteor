@@ -323,8 +323,7 @@
 							"name": "view",
 							"type": "data_view",
 							"title": "Podestrians",
-							"text_if_empty": "No customers :(",
-							"query_name": "customers",
+							"text_if_empty": "No podestrians :(",
 							"edit_route_params": [
 								{
 									"name": "customerId",
@@ -348,7 +347,7 @@
 									"type": "form",
 									"mode": "insert",
 									"title": "New Podestrian",
-									"query_name": "customers_empty"
+									"query_name": "podestrians_empty"
 								}
 							],
 							"type": "page"
@@ -365,9 +364,7 @@
 									"mode": "read_only",
 									"title": "Details",
 									"layout": "horizontal",
-									"query_name": "customer",
-									"close_route": "customers",
-									"back_route": "customers"
+									"query_name": "podestrian"
 								}
 							],
 							"type": "page"
@@ -388,7 +385,8 @@
 									"query_name": "customer"
 								}
 							],
-							"type": "page"
+							"type": "page",
+							"query_name": "podestrian"
 						}
 					],
 					"type": "page"

@@ -324,6 +324,7 @@
 							"type": "data_view",
 							"title": "Podestrians",
 							"text_if_empty": "No podestrians :(",
+							"query_name": "podestrians",
 							"edit_route_params": [
 								{
 									"name": "customerId",
@@ -380,9 +381,7 @@
 									"type": "form",
 									"mode": "update",
 									"title": "Edit customer",
-									"submit_route": "customers",
-									"cancel_route": "customers",
-									"query_name": "customer"
+									"query_name": "podestrian"
 								}
 							],
 							"type": "page",

@@ -4,7 +4,7 @@
 		"theme": "bootswatch-flatly",
 		"collections": [
 			{
-				"name": "customers",
+				"name": "podestrians",
 				"fields": [
 					{
 						"name": "name",

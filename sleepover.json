@@ -149,6 +149,7 @@
 			"type": "zone"
 		},
 		"private_zone": {
+			"navbar_class": "navbar-inverse navbar-fixed-top",
 			"components": [
 				{
 					"name": "left_menu",
@@ -188,7 +189,6 @@
 					]
 				}
 			],
-			"navbar_class": "navbar-inverse navbar-fixed-top",
 			"pages": [
 				{
 					"name": "home_private",

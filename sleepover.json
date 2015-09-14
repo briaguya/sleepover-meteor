@@ -325,12 +325,15 @@
 							"title": "Podestrians",
 							"text_if_empty": "No podestrians :(",
 							"query_name": "podestrians",
+							"insert_route": "podestrians.insert",
+							"edit_route": "podestrians.edit",
 							"edit_route_params": [
 								{
 									"name": "customerId",
 									"value": "this._id"
 								}
 							],
+							"details_route": "podestrians.details",
 							"details_route_params": [
 								{
 									"name": "customerId",

@@ -7,13 +7,6 @@
 				"name": "podestrians",
 				"fields": [
 					{
-						"name": "name",
-						"title": "Name",
-						"required": true,
-						"exportable": true,
-						"type": "string"
-					},
-					{
 						"name": "phone",
 						"title": "Phone",
 						"default": "-",
@@ -27,19 +20,64 @@
 						"exportable": true
 					},
 					{
-						"name": "note",
-						"title": "Note",
-						"input": "textarea",
-						"exportable": true,
+						"name": "podestrian_number",
+						"title": "Podestrian Number",
 						"type": "string"
 					},
 					{
-						"name": "active",
-						"title": "Active",
-						"type": "bool",
-						"input": "checkbox",
-						"display_helper": "booleanToYesNo",
-						"exportable": true
+						"name": "first_name",
+						"title": "First Name",
+						"type": "string"
+					},
+					{
+						"name": "last_name",
+						"title": "Last Name",
+						"type": "string"
+					},
+					{
+						"name": "address",
+						"title": "Address",
+						"type": "string"
+					},
+					{
+						"name": "sex",
+						"title": "Sex",
+						"type": "string"
+					},
+					{
+						"name": "facebook",
+						"title": "Facebook",
+						"type": "string"
+					},
+					{
+						"name": "twitter",
+						"title": "Twitter",
+						"type": "string"
+					},
+					{
+						"name": "instagram",
+						"title": "Instagram",
+						"type": "string"
+					},
+					{
+						"name": "podestrian_type",
+						"title": "Podestrian Type",
+						"type": "string"
+					},
+					{
+						"name": "birthday",
+						"title": "Birthday",
+						"type": "date"
+					},
+					{
+						"name": "pic",
+						"title": "Picture",
+						"type": "string"
+					},
+					{
+						"name": "how_found",
+						"title": "How they found us",
+						"type": "string"
 					}
 				],
 				"type": "collection"

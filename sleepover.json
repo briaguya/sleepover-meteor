@@ -198,8 +198,8 @@
 							"route": "home_private"
 						},
 						{
-							"title": "Customers",
-							"route": "customers"
+							"title": "Podestrians",
+							"route": "podestrians"
 						}
 					],
 					"dest_selector": "#menu",

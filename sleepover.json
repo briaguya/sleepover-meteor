@@ -81,6 +81,27 @@
 					}
 				],
 				"type": "collection"
+			},
+			{
+				"name": "pods",
+				"type": "collection",
+				"fields": [
+					{
+						"name": "name",
+						"title": "Pod Name",
+						"type": "string"
+					},
+					{
+						"name": "type",
+						"title": "Type",
+						"type": "string"
+					},
+					{
+						"name": "location",
+						"title": "Location",
+						"type": "string"
+					}
+				]
 			}
 		],
 		"queries": [

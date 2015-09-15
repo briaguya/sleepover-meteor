@@ -105,7 +105,10 @@
 						"name": "bookings",
 						"title": "Bookings",
 						"type": "array",
-						"join_collection": "booking"
+						"join_collection": "booking",
+						"join_fields": [
+							"checkin, checkout"
+						]
 					}
 				]
 			},

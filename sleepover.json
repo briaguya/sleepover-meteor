@@ -102,6 +102,42 @@
 						"type": "string"
 					}
 				]
+			},
+			{
+				"name": "booking",
+				"type": "collection",
+				"fields": [
+					{
+						"name": "pod",
+						"title": "Pod",
+						"type": "string"
+					},
+					{
+						"name": "podestrian",
+						"title": "Podestrian",
+						"type": "string"
+					},
+					{
+						"name": "checkin",
+						"title": "Check In Date",
+						"type": "string"
+					},
+					{
+						"name": "checkout",
+						"title": "Check Out Date",
+						"type": "string"
+					},
+					{
+						"name": "price",
+						"title": "Price",
+						"type": "string"
+					},
+					{
+						"name": "status",
+						"title": "Status",
+						"type": "string"
+					}
+				]
 			}
 		],
 		"queries": [

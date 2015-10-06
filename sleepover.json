@@ -179,7 +179,7 @@
 				"find_one": true
 			},
 			{
-				"name": "open_pods",
+				"name": "pods",
 				"collection": "pods"
 			}
 		],
@@ -455,7 +455,7 @@
 									"name": "edit_form",
 									"type": "form",
 									"mode": "update",
-									"title": "Edit Podestrian",
+									"title": "Edit customer",
 									"query_name": "podestrian"
 								}
 							],
@@ -465,6 +465,18 @@
 					],
 					"type": "page",
 					"query_name": "podestrians"
+				},
+				{
+					"name": "pods",
+					"query_name": "pods",
+					"type": "page",
+					"components": [
+						{
+							"name": "view",
+							"query_name": "pods",
+							"type": "data_view"
+						}
+					]
 				}
 			],
 			"type": "zone"

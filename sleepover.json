@@ -270,6 +270,10 @@
 						{
 							"title": "Podestrians",
 							"route": "podestrians"
+						},
+						{
+							"title": "Pods",
+							"route": "pods"
 						}
 					],
 					"dest_selector": "#menu",

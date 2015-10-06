@@ -455,7 +455,7 @@
 									"name": "edit_form",
 									"type": "form",
 									"mode": "update",
-									"title": "Edit customer",
+									"title": "Edit Podestrian",
 									"query_name": "podestrian"
 								}
 							],
